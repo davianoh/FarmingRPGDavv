@@ -37,4 +37,10 @@ public static class Settings
     public const float runningSpeed = 5.333f;
     public const float walkingSpeed = 2.666f;
     #endregion
+
+    #region Fade Parameters
+    public const float fadeInSeconds = 0.25f;
+    public const float fadeOutSeconds = 0.35f;
+    public const float targetAlphaTransparent = 0.45f;
+    #endregion
 }
